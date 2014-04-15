@@ -1,0 +1,54 @@
+body{
+	background-color: gray;
+}
+.Cartoon_img {
+	width: 250px;
+	height:250px;
+	border:2px solid black;
+	display: inline-block;
+	background-image: url("rock.jpg");
+	background-size: 100%;
+}
+
+#Simpsons_img{
+	background-image: url("rock.jpg");
+}
+
+#Paper_img {
+	background-image: url("paper.jpg");
+}
+
+#Scissors_img {
+	background-image: url("scissors.jpg");
+}
+
+button {
+	width: 120px;
+	height: 80px;
+	border-radius: 40px;
+	border: 1px solid black;
+	background-color: red;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+#winnerPic {
+	width: 250px;
+	height: 250px;
+	border: 2px solid red;
+	background-size: 100%;
+}
+
+.rockWin {
+	background-image: url("rock.jpg");
+}
+
+.paperWin {
+	background-image: url("paper.jpg");
+}
+
+.scissorsWin {
+	background-image: url("scissors.jpg");
+}
